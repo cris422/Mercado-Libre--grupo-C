@@ -1,0 +1,21 @@
+.carrusel {
+  height: 200px;
+  object-fit: cover;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+
+/* mediaquerie dispositivo lg */
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 700px;
+    object-position: 50% 70% ;
+  }
+}
