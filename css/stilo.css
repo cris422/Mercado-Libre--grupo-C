@@ -16,6 +16,6 @@ main {
 @media screen and (min-width: 992px) {
   .carrusel {
     height: 700px;
-    object-position: 50% 70% ;
+    object-position: 50% 70%;
   }
 }
