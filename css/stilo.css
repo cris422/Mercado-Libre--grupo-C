@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
@@ -12,5 +13,17 @@
     background-color: var(--negro);
     color: white;
     padding: 20px;
+    
+}
+.carrusel {
+  height: 200px;
+  object-fit: cover;
+}
+/* mediaquerie dispositivo lg */
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 700px;
+.nav{
+    background-color: #ffe650 !important;
     
 }
