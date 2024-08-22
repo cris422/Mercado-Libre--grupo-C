@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keyword"
-      content="compras, autos, repuestos, hacesorios para hogar"
+      content="compras ventas, autos, repuestos, hacesorios para hogar, electrodomésticos,moto, repuestos"
     />
     <meta name="discription" content="" />
     <meta
@@ -18,48 +18,212 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/stilo.css" />
     <title>Mercado Libre</title>
   </head>
   <body>
-    <header></header>
-    <main>
-        <section>
-            <h2 class="text-center"> Registro de usuario</h2>
-            <form class="formRegistro">
-                <div>
-                 <label for="" class="labelRegistro">Nombre y apellido:</label>
-                <input class="inputRegistro" type="text"  id="Nombre" placeholder="Ej:Juan Perez" minlength="5" maxlength="30" required> 
-                </div>
-                <div>
-                <label for="" class="labelRegistro">Ingrese su email:</label>
-                <input  class= "inputRegistro" type="email" id="Ingrese su email" minlength="5" maxlength="320" required placeholder="juanPerez@gmail.com">
-                </div> 
-                <div>
-                <label for="" class="labelRegistro">Usuario:</label>
-                <input  class= "inputRegistro" type="text" id="Usuario" minlength="5" maxlength="30" required placeholder="Juan_Perez22">
-                </div>
-                <div>
-                <label for="" class="labelRegistro"> Domicilio:</label>
-                <input  class= "inputRegistro" type="text" id="Domicilio:" minlength="5" maxlength="50">
-                </div>
-                <div>
-                 <label for="" class="labelRegistro">Telefono:</label> 
-                 <input  class= "inputRegistro" type="tel" id="Telefono:">
-                </div>
-                <div>
-                    <label for="" class="labelRegistro">Codigo Postal:</label>
-                    <input  class= "inputRegistro" type="tel" id="Codigo postal:" minlength="4" maxlength="10">
-                </div>
-                <div>
-                <label for="" class="labelRegistro">Contraseña:</label>
-                <input  class= "inputRegistro" type="password" id="Contraseña" minlength="10" maxlength="20" required>
-                 </div>
-                <button class="botonRegistro">Enviar</button>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav py-4">
+        <div class="container">
+          <a class="navbar-brand fs-2" href="../index.html">Mercado Libre</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-5"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link" href="../pages/Nosotrosomos.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link" href="../pages/Registro.html">Login</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark" type="submit">Buscar</button>
             </form>
-        </section>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 class="text-center">Registro de usuario</h2>
+        <form class="formRegistro">
+          <div>
+            <label for="" class="labelRegistro">Nombre y apellido:</label>
+            <input
+              class="inputRegistro"
+              type="text"
+              id="Nombre"
+              placeholder="Ej:Juan Perez"
+              minlength="5"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div>
+            <label for="" class="labelRegistro">Ingrese su email:</label>
+            <input
+              class="inputRegistro"
+              type="email"
+              id="Ingrese su email"
+              minlength="5"
+              maxlength="320"
+              required
+              placeholder="juanPerez@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="" class="labelRegistro">Usuario:</label>
+            <input
+              class="inputRegistro"
+              type="text"
+              id="Usuario"
+              minlength="5"
+              maxlength="30"
+              required
+              placeholder="Juan_Perez22"
+            />
+          </div>
+          <div>
+            <label for="" class="labelRegistro"> Domicilio:</label>
+            <input
+              class="inputRegistro"
+              type="text"
+              id="Domicilio:"
+              minlength="5"
+              maxlength="50"
+            />
+          </div>
+          <div>
+            <label for="" class="labelRegistro">Telefono:</label>
+            <input class="inputRegistro" type="tel" id="Telefono:" />
+          </div>
+          <div>
+            <label for="" class="labelRegistro">Codigo Postal:</label>
+            <input
+              class="inputRegistro"
+              type="tel"
+              id="Codigo postal:"
+              minlength="4"
+              maxlength="10"
+            />
+          </div>
+          <div>
+            <label for="" class="labelRegistro">Contraseña:</label>
+            <input
+              class="inputRegistro"
+              type="password"
+              id="Contraseña"
+              minlength="10"
+              maxlength="20"
+              required
+            />
+          </div>
+          <button class="botonRegistro">Enviar</button>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <section class="container">
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-4">
+            <h5>Mercado Libre</h5>
+            <p>Conseguí los mejores beneficios, con nosotros.</p>
+            <img
+              src="https://img.icons8.com/?size=100&id=nTLVtpxsNPaz&format=png&color=000000"
+              alt=""
+            />
+          </article>
+          <article class="col-12 col-md-4 col-lg-4">
+            <h5>¡Seguinos en nuestras redes!</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://x.com/ML_Argentina" class="link-secondary"
+                  >X</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/mercadolibre.arg/?hl=es-la"
+                  class="link-secondary"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/MercadoLibre/?locale=es_LA"
+                  class="link-secondary"
+                  >Facebook</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/user/mercadolibre"
+                  class="link-secondary"
+                  >YouTube</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.mercadolibre.com.ar/ayuda/27823"
+                  class="link-secondary"
+                  >ayuda@mercadolibre.gmail.com.ar</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-4 col-lg-4">
+            <h5>Ayuda</h5>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-secondary">Comprar</a></li>
+              <li><a href="" class="link-secondary">Vender</a></li>
+              <li><a href="" class="link-secondary">Envíos</a></li>
+              <li>
+                <a href="" class="link-secondary">Resolución de problemas</a>
+              </li>
+              <li><a href="" class="link-secondary">Contactos</a></li>
+              <li><a href="login.html" class="link-secondary">Acceso</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
