@@ -1,3 +1,4 @@
+
 label{
     display: block;
     
@@ -39,3 +40,72 @@ input{
     margin-bottom: 15px;
     padding: 5px;
   }
+
+.card {
+    border-radius: 10px;
+    border: rgb(162, 160, 160);
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2%);
+  }
+  .tarjetaHogar {
+    height: 600px;
+  }
+  
+  .text-herramientas {
+    border-radius: 10px;
+    background-color: rgb(8, 118, 228);
+    color: rgb(255, 255, 255);
+    width: 35%;
+  }
+  .textColchones {
+    border-radius: 10px;
+    background-color: rgb(243, 235, 17);
+    width: 80%;
+  }
+  @media screen and (min-width: 992px) {
+    .tarjetaHogar {
+      height: 470px;
+    }
+    .text-herramientas {
+      border-radius: 10px;
+      background-color: rgb(8, 118, 228);
+      color: rgb(255, 255, 255);
+      width: 70%;
+    }
+    .textColchones {
+      border-radius: 10px;
+      background-color: rgb(243, 235, 17);
+      width: 60%;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --azul:#3483fa;
+    --verde:#00a650;
+    --amarillo:#ffe600;
+    --negro:#2F2F2F;;
+    color: white;
+}
+
+.footer{
+    background-color: var(--negro);
+    color: white;
+    padding: 20px;
+    
+}
+.carrusel {
+  height: 200px;
+  object-fit: cover;
+}
+/* mediaquerie dispositivo lg */
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 700px;
+.nav{
+    background-color: #ffe650 !important;
+    
+}
