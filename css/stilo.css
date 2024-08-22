@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --azul:#3483fa;
+    --verde:#00a650;
+    --amarillo:#ffe600;
+    --negro:#2F2F2F;;
+    color: white;
+}
+
+.footer{
+    background-color: var(--negro);
+    color: white;
+    padding: 20px;
+    
+}
