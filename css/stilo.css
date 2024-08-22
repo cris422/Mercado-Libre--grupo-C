@@ -1,3 +1,12 @@
+
+.carrusel {
+  height: 200px;
+  object-fit: cover;
+}
+/* mediaquerie dispositivo lg */
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 700px;
 .nav{
     background-color: #ffe650 !important;
     
