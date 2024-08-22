@@ -1,0 +1,41 @@
+label{
+    display: block;
+    
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.boton{
+    background-color: var(--azul);
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px;
+    border-color: white;
+    width: 30%;
+    margin-top: 5px;
+
+}
+
+.boton:hover{
+    background-color: #2679f5;
+}
+
+.franjaAmarilla{
+    background-color: var(--amarillo);
+    color: var(white);
+    text-align: center;
+    padding: 20px;
+  
+  }
+  
+  select{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
